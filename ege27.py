@@ -8,6 +8,7 @@ for line in open('27a.txt'):
     else:
         clustersA[1].append([x,y])
 
+
 for line in open('27b.txt'):
     x,y = [float(x) for x in line.split()]
     if y < 3:

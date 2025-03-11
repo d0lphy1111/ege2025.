@@ -1,0 +1,5 @@
+s = open('testege').readline()
+while 'C' in s: s = s.replace('C', ' ')
+while 'D' in s: s = s.replace('D', ' ')
+s = s.split()
+print(max(len(s) for s in s))

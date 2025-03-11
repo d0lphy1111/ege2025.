@@ -1,5 +1,7 @@
 def c(N):
     b = ''
+    if N == 0:
+        return '0'
     while N > 0:
         b = str(N % 3) + b
         N //= 3
