@@ -1,6 +1,6 @@
 from re import *
 
-s = open('testege').readline()
+s = open('testege.txt').readline()
 
 reg = r'([1-9][0-9]*|0)'
 

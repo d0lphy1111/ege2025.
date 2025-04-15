@@ -1,4 +1,4 @@
-s = open('testege').readline()
+s = open('testege.txt').readline()
 while '++' in s: s = s.replace('++', '+ +')
 while '**' in s: s = s.replace('**', '* *')
 while '+*' in s: s = s.replace('+*', '+ *')

@@ -1,4 +1,4 @@
-s = open('testege').readline()
+s = open('testege.txt').readline()
 k = 0
 l = 0
 m = 0

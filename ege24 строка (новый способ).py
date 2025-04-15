@@ -3,9 +3,8 @@ m = 0
 for l in range(len(s)):
     for r in range(l + m, len(s)):
         c = s[l:r+1]
-        if c.count('AB') == 21:
+        if 'PR' not in c and 'RP' not in c:
             m = max(m, len(c))
-        elif c.count('AB') > 21:
+        else:
             break
 print(m)
-

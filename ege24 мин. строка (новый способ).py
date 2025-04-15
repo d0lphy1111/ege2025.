@@ -1,11 +1,9 @@
 s = open('testege.txt').readline()
-m = 0
+m = 100000
 for l in range(len(s)):
-    for r in range(l + m, len(s)):
+    for r in range(l, l + m):
         c = s[l:r+1]
         if c.count('AB') == 21:
-            m = max(m, len(c))
-        elif c.count('AB') > 21:
+            m = min(m, len(c))
             break
 print(m)
-

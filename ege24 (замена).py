@@ -1,4 +1,4 @@
-s = open('testege').readline()
+s = open('testege.txt').readline()
 while 'C' in s: s = s.replace('C', ' ')
 while 'D' in s: s = s.replace('D', ' ')
 s = s.split()
